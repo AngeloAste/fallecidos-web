@@ -43,6 +43,7 @@ export default function Home() {
     <div className="min-h-screen bg-slate-50 text-slate-900">
       <Navbar />
       <main className="container mx-auto px-4 py-8 max-w-6xl">
+        <h1 className="text-9xl font-bold text-center mb-8 text-blue-600">HOLA ANGELO</h1>
         <Hero />
         <div className="mt-8 rounded-2xl border bg-white p-6 shadow-sm">
           <SearchSection onSearch={handleSearch} onClear={handleClear} loading={loading} />
